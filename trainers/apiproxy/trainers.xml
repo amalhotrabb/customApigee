@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="trainers">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1462976039498</CreatedAt>
+    <CreatedBy>raja@osscube.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Template</DisplayName>
+    <LastModifiedAt>1462977131006</LastModifiedAt>
+    <LastModifiedBy>raja@osscube.com</LastModifiedBy>
+    <Policies>
+        <Policy>Add-Auth-Header</Policy>
+        <Policy>Auth-Key</Policy>
+        <Policy>JSON-Threat-Protection</Policy>
+        <Policy>Quota-1</Policy>
+        <Policy>Regular-Expression-Protection</Policy>
+        <Policy>Response-Cache</Policy>
+        <Policy>Spike-Arrest</Policy>
+        <Policy>Verify-API-Key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>BOD-Content-Endpoint</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
